@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Public Page</title>
+</head>
+<body>
+<h2>Welcome!</h2>
+<p>You have successfully logged in.</p>
+<p>Username: <%= request.getSession().getAttribute("user") %></p>
+<a href="logout">Logout</a>
+</body>
+</html>
